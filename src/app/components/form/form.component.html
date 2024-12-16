@@ -1,0 +1,20 @@
+<div class="form-container">
+    <div class="container">
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">&#64;</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+        <div class="canvas-area">
+            <canvas id="signatureCanvas" width="350" height="200" style="border:1px solid rgba(0, 0, 0, 0.175);background: #f8f9fa;border-radius:.375rem;"></canvas>
+            <button (click)="clearCanvas()" type="button">
+                <i class="fa-solid fa-eraser text-grey-400"></i>
+            </button>
+        </div>
+    </div>
+</div>

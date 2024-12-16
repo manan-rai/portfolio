@@ -1,0 +1,8 @@
+
+.gitbtn{
+    background:  var(--button-bg) !important;
+    color: var(--button-color) !important;
+}
+.gitbtn:hover{
+    color: var(--hover-color) !important;
+}

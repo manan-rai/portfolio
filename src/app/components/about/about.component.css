@@ -1,0 +1,29 @@
+a:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    height: max-content;
+    background: var(--button-bg);
+    border-radius: .375rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.6rem;
+    font-size: 10px;
+    width: 1.7rem;
+    margin: 2px;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    color: rgb(138 125 119);
+}
+
+button.active {
+    background-color: var(--button-active);
+}

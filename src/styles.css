@@ -1,0 +1,157 @@
+
+body.light-mode{
+    --background-color: rgb(247 246 246);
+    --text-color: rgb(60 54 51);
+    --button-bg: rgb(230, 226, 223);
+    --button-active: rgb(208, 198, 197);
+    --button-color:rgb(88 78 73);
+    --hover-color:rgb(60 54 51);
+}
+
+body.dark-mode{
+    --background-color: rgb(28 25 23);
+    --text-color: rgb(230 226 225);
+    --button-bg: rgb(52, 47, 44);
+    --button-active: rgb(91, 80, 75);
+    --button-color:#fff;
+    --hover-color:rgb(208, 198, 197);
+}
+
+html {
+    display: block;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 2em;
+    display: block;
+    max-width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    font-size: 15px;
+    position: relative;
+    height: 95vh;
+    overflow: hidden;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.mt-1 {
+    margin-top: .25rem;
+}
+
+.mt-10 {
+    margin-top: 2.5rem;
+}
+
+.mb-12 {
+    margin-bottom: 3rem;
+}
+
+.text-grey-400 {
+    color: rgb(138 125 119);
+}
+
+.text-grey-500 {
+    color: rgb(112 97 92);
+}
+
+.text-grey-600 {
+    color: rgb(88 78 73);
+}
+
+.text-grey-700 {
+    color: rgb(83 89 85);
+}
+
+.text-grey-800 {
+    color: rgb(60 54 51);
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.bg-grey-50 {
+    background-color: rgb(247 246 246);
+}
+
+.gap-0\.5 {
+    gap: .125rem;
+}
+
+.w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.max-w {
+    max-width: 712px;
+}
+
+.inline-link {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+}
+
+.gap-1 {
+    gap: .25rem;
+}
+
+.mr-2 {
+    margin-right: 1rem;
+}
+
+.p-s {
+    opacity: 1;
+    filter: blur(0px);
+    transform: none;
+}
+
+.link-list {
+    width: 100%;
+    border-top: 1px solid rgb(138 125 119);
+
+}
+
+.component-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.b-b {
+    border-bottom: 1px solid rgb(138 125 119);
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    background: var(--button-bg);
+    border-radius: .375rem;
+    color: var(--button-color);
+}

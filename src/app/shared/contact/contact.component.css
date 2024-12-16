@@ -1,0 +1,16 @@
+span:hover {
+    color: var(--hover-color);
+}
+
+.contact-footer {
+    opacity: 1;
+    filter: blur(0px);
+    transform: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+i{
+    font-size: 11px !important;
+}
