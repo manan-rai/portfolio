@@ -155,3 +155,10 @@ button {
     border-radius: .375rem;
     color: var(--button-color);
 }
+/* drift css */
+.drift-widget-controller-icon {
+    background-color: transparent !important;
+}
+.drift-widget-header-top-line{
+    background: red !important;
+}
