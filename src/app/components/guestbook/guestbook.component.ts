@@ -11,7 +11,7 @@ export class GuestbookComponent {
   
   signInWithGitHub(){
     const clientId = 'Ov23lit4ewPicQCxegA8';
-    const redirectUri ='http://localhost:4200/guestbook-form';
+    const redirectUri ='https://mananrai.com.np/guestbook-form';
 
     window.location.href = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}`;
 
