@@ -4,7 +4,6 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { BlogComponent } from './components/blog/blog.component';
 import { GuestbookComponent } from './components/guestbook/guestbook.component';
 import { FormComponent } from './components/form/form.component';
-import { NgModule } from '@angular/core';
 import { EzoneComponent } from './components/company/ezone/ezone.component';
 import { MediflowComponent } from './components/company/mediflow/mediflow.component';
 
@@ -15,16 +14,14 @@ export const routes: Routes = [
     {
         path: "experience",
         component: ExperienceComponent,
-        children: [
-            {
-                path: "ezone",
-                component: EzoneComponent,
-            },
-            {
-                path: "mediflow", 
-                component: MediflowComponent
-            },
-        ]
+    },
+    {
+        path: "experience/ezone",
+        component: EzoneComponent,
+    },
+    {
+        path: "experience/mediflow",
+        component: MediflowComponent
     },
     {
         path: "blog", component: BlogComponent
