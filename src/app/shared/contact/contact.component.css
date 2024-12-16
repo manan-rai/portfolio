@@ -14,3 +14,10 @@ span:hover {
 i{
     font-size: 11px !important;
 }
+
+@media only screen and (max-width: 600px)  {
+    .btn-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
