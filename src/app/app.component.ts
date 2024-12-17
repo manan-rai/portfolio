@@ -18,9 +18,6 @@ export class AppComponent {
     } else {
       this.applyTheme('light');
     }
-    if (window.drift) {
-      window.drift.show();
-    }
   }
   
   applyTheme(theme: string) {
